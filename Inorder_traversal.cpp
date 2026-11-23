@@ -24,7 +24,6 @@ void preorder(TreeNode *root, vector<int> &v)
     preorder(root->left, v);
     v.push_back(root->val);
     preorder(root->right, v);
-   
 }
 vector<int> preorderTraversal(TreeNode *root)
 {
